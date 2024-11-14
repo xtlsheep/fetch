@@ -1007,8 +1007,9 @@ is a <dfn export>CORS-safelisted request-header</dfn>, run these steps:
      <li><p>If <var>mimeType</var> is failure, then return false.
 
      <li><p>If <var>mimeType</var>'s <a for="MIME type">essence</a> is not
-     "<code>application/x-www-form-urlencoded</code>", "<code>multipart/form-data</code>", or
-     "<code>text/plain</code>", then return false.
+     "<code>application/x-www-form-urlencoded</code>", "<code>multipart/form-data</code>",
+     "<code>text/plain</code>", or "<code>message/ad-auction-trusted-signals-request</code>",
+     then return false.
     </ol>
 
     <p class=warning>This intentionally does not use <a>extract a MIME type</a> as that algorithm is
